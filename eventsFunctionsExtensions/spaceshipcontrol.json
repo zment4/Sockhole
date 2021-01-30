@@ -1,0 +1,194 @@
+{
+  "author": "",
+  "description": "",
+  "extensionNamespace": "",
+  "fullName": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "SpaceshipControl",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "tags": [],
+  "eventsFunctions": [],
+  "eventsBasedBehaviors": [
+    {
+      "description": "Turn the spaceship, give it throttle/thrust, and possible affect with gravity.",
+      "fullName": "Spaceship Controls",
+      "name": "SpaceshipBehavior",
+      "objectType": "Sprite",
+      "eventsFunctions": [
+        {
+          "description": "",
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPreEvents",
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeDirection"
+                  },
+                  "parameters": [
+                    "Object",
+                    "-",
+                    "(Object.Behavior::PropertyTurnSpeed() * (abs(Object.ForceLength() * 0.05))) + 1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeDirection"
+                  },
+                  "parameters": [
+                    "Object",
+                    "+",
+                    "(Object.Behavior::PropertyTurnSpeed() * (abs(Object.ForceLength() * 0.05))) + 1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Up"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Object.Angle()-90",
+                    "1",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "SpaceshipControl::SpaceshipBehavior",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [
+        {
+          "value": "10",
+          "type": "Number",
+          "label": "Gravity",
+          "description": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "Gravity"
+        },
+        {
+          "value": "1",
+          "type": "Number",
+          "label": "Turn Speed",
+          "description": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "TurnSpeed"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "label": "Current horizontal speed",
+          "description": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "VelocityX"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "label": "Current vertical speed",
+          "description": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "VelocityY"
+        }
+      ]
+    }
+  ]
+}

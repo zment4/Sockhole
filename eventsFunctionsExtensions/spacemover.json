@@ -1,0 +1,43 @@
+{
+  "author": "",
+  "description": "",
+  "extensionNamespace": "",
+  "fullName": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "SpaceMover",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "tags": [],
+  "eventsFunctions": [],
+  "eventsBasedBehaviors": [
+    {
+      "description": "",
+      "fullName": "",
+      "name": "SpaceMover",
+      "objectType": "",
+      "eventsFunctions": [],
+      "propertyDescriptors": [
+        {
+          "value": "0",
+          "type": "Number",
+          "label": "Base X position",
+          "description": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "BaseX"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "label": "Base Y position",
+          "description": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "BaseY"
+        }
+      ]
+    }
+  ]
+}

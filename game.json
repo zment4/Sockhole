@@ -13,7 +13,7 @@
     "packageName": "com.zment.sockhole",
     "projectUuid": "76675571-5bd9-46b7-9b07-9c421817b86b",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Projekti",
@@ -128,7 +128,16 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spaceshipcontrol"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spacemover"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
