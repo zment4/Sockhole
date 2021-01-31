@@ -103,7 +103,7 @@
         "kind": "image",
         "metadata": "",
         "name": "space.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -114,6 +114,333 @@
         "name": "ship.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-Blue.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-Blue-Rectangle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-Blue-Rectangle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-Blue-Striped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-Blue-Striped.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-Green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-Green.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-Red.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-Red-Rectangle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-Red-Rectangle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-Green-Rectangle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-Green-Rectangle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-Red-Striped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-Red-Striped.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-Green-Striped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-Green-Striped.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-Rainbow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-Rainbow.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sockhole-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sockhole-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sockhole-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sockhole-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sockhole-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sockhole-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-3-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-4-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-5-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-6-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-6-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-7-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-7-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-8-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-8-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-9-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-9-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sock-10-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sock-10-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "noise.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "noise.wav",
+        "userAdded": true
+      },
+      {
+        "file": "pop.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pop.wav",
+        "userAdded": true
+      },
+      {
+        "file": "whoup.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "whoup.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -122,6 +449,10 @@
   "objectsGroups": [],
   "variables": [],
   "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-menu"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/space"
@@ -136,6 +467,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/spacemover"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sockhandler"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sockholehandler"
     }
   ],
   "externalLayouts": [],

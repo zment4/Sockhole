@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Space",
-  "name": "Space",
+  "mangledName": "Main_32menu",
+  "name": "Main menu",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -22,59 +22,11 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 3.232
+    "zoomFactor": 1.24
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Spaceship",
-      "persistentUuid": "6cd744ed-25de-406d-b4a1-47bbd08e29c0",
-      "width": 0,
-      "x": 115,
-      "y": 74,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Background",
-      "persistentUuid": "686f2b3b-c278-4f51-a01d-e02ade4d2944",
-      "width": 0,
-      "x": 256,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Background",
-      "persistentUuid": "0a607ae6-868a-408b-a1be-7a3ec03bfdc1",
-      "width": 0,
-      "x": -256,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": false,
@@ -97,108 +49,60 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Background",
-      "persistentUuid": "7d089659-8678-454a-9142-2630847ecebf",
-      "width": 0,
-      "x": -256,
-      "y": 192,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Background",
-      "persistentUuid": "429fe091-4188-4a7e-83f3-4847ae9c3d43",
-      "width": 0,
-      "x": 0,
-      "y": 192,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Background",
-      "persistentUuid": "37105ff2-1e68-449a-af92-d67f00c84777",
-      "width": 0,
-      "x": 256,
-      "y": 192,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Background",
-      "persistentUuid": "6e333865-116e-4e65-a090-a4bfa52e8f43",
-      "width": 0,
-      "x": 256,
-      "y": -192,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Background",
-      "persistentUuid": "a2a9710b-3b0e-452a-9adc-b43b109bcc6f",
-      "width": 0,
-      "x": 0,
-      "y": -192,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Background",
-      "persistentUuid": "006665a1-c839-4d7c-9ac7-c4cbe7086a46",
-      "width": 0,
-      "x": -256,
-      "y": -192,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
       "name": "Sockhole",
       "persistentUuid": "8bfe87e2-60e2-468a-a34b-657115e44532",
       "width": 0,
       "x": 128,
-      "y": 96,
+      "y": 60,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Title",
+      "persistentUuid": "69739562-500f-4548-ac97-9eafd75ada36",
+      "width": 0,
+      "x": 40,
+      "y": 100,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 42,
+      "layer": "",
+      "locked": false,
+      "name": "Directions",
+      "persistentUuid": "4d452dd9-7372-45dc-8e2a-4a8ac0d14c76",
+      "width": 222,
+      "x": 122,
+      "y": 145,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Directions2",
+      "persistentUuid": "08bb94ee-717d-4f1d-b477-fef25fbadb39",
+      "width": 0,
+      "x": 64,
+      "y": 145,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -242,50 +146,6 @@
                     "name": "centre",
                     "x": 0,
                     "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Spaceship",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "SpaceshipBehavior",
-          "type": "SpaceshipControl::SpaceshipBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "Spaceship",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "ship.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 8,
-                    "y": 8
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 8,
-                    "y": 8
                   },
                   "customCollisionMask": []
                 }
@@ -538,45 +398,6 @@
       ]
     },
     {
-      "name": "TargetBlip",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewObject",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewObject-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "additive": false,
       "alphaParam": "Mutable",
       "angleParam": "Mutable",
@@ -632,6 +453,63 @@
       "zoneRadius": 3,
       "variables": [],
       "behaviors": []
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Title",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "SOCKHOLE",
+      "font": "",
+      "characterSize": 32,
+      "color": {
+        "b": 187,
+        "g": 187,
+        "r": 247
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Directions2",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Enter\nEsc",
+      "font": "",
+      "characterSize": 16,
+      "color": {
+        "b": 187,
+        "g": 187,
+        "r": 247
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Directions",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Find socks\nLose socks",
+      "font": "",
+      "characterSize": 16,
+      "color": {
+        "b": 207,
+        "g": 207,
+        "r": 207
+      }
     }
   ],
   "events": [
@@ -655,30 +533,6 @@
         {
           "type": {
             "inverted": false,
-            "value": "MettreX"
-          },
-          "parameters": [
-            "Spaceship",
-            "=",
-            "SceneWindowWidth() / 2"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MettreY"
-          },
-          "parameters": [
-            "Spaceship",
-            "=",
-            "SceneWindowHeight() / 2"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "ResetTimer"
           },
           "parameters": [
@@ -698,20 +552,6 @@
             "RandomFloatInRange(1,2)"
           ],
           "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "TargetBlip",
-            "Spaceship.X()",
-            "Spaceship.Y()",
-            ""
-          ],
-          "subInstructions": []
         }
       ],
       "events": []
@@ -721,60 +561,7 @@
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "CentreCamera"
-          },
-          "parameters": [
-            "",
-            "Spaceship",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "SpaceMover::SpaceMover::SetTarget"
-          },
-          "parameters": [
-            "Background",
-            "SpaceMover",
-            "Spaceship",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MettreAutour"
-          },
-          "parameters": [
-            "TargetBlip",
-            "Spaceship",
-            "30",
-            "Spaceship.AngleToObject(Sockhole)"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetAngle"
-          },
-          "parameters": [
-            "TargetBlip",
-            "=",
-            "TargetBlip.AngleToObject(Sockhole) + 90"
-          ],
-          "subInstructions": []
-        }
-      ],
+      "actions": [],
       "events": []
     },
     {
@@ -827,142 +614,9 @@
           "parameters": [
             "",
             "Sock",
-            "SceneWindowWidth() / 2",
-            "SceneWindowHeight() / 2",
+            "Sockhole.X()",
+            "Sockhole.Y()",
             ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Spaceship",
-            "Sock",
-            "",
-            "",
-            "no"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SockHandler::SockBehavior::Collect"
-          },
-          "parameters": [
-            "Sock",
-            "SockBehavior",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "Sock",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SockHandler::SockBehavior::MoveTowardsIfCollected"
-          },
-          "parameters": [
-            "Sock",
-            "SockBehavior",
-            "Spaceship",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Sock",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Distance"
-              },
-              "parameters": [
-                "Sock",
-                "Sock",
-                "Sock.Width() * 2",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceVers"
-              },
-              "parameters": [
-                "Sock",
-                "Sock",
-                "-(Sock.Distance(Sock))",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ]
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Distance"
-          },
-          "parameters": [
-            "Spaceship",
-            "Sockhole",
-            "Sockhole.Width() * 10",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "AddForceVers"
-          },
-          "parameters": [
-            "Spaceship",
-            "Sockhole",
-            "-(1 / (Spaceship.Distance(Sockhole) + 1)) * 1000",
-            "0"
           ],
           "subInstructions": []
         }
@@ -981,125 +635,7 @@
           },
           "parameters": [
             "",
-            "Up"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SoundPlaying"
-              },
-              "parameters": [
-                "",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "noise.wav",
-                "0",
-                "yes",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "NbObjet"
-              },
-              "parameters": [
-                "ThrottleParticles",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "ThrottleParticles",
-                "Spaceship.X()",
-                "Spaceship.Y()",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "ThrottleParticles",
-                "=",
-                "Spaceship.Angle() + 90"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreAutour"
-              },
-              "parameters": [
-                "ThrottleParticles",
-                "Spaceship",
-                "8",
-                "Spaceship.Angle() + 90"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ]
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "KeyReleased"
-          },
-          "parameters": [
-            "",
-            "Up"
+            "Return"
           ],
           "subInstructions": []
         }
@@ -1108,23 +644,12 @@
         {
           "type": {
             "inverted": false,
-            "value": "ParticleSystem::Flow"
-          },
-          "parameters": [
-            "ThrottleParticles",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "StopSoundCanal"
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "0"
+            "\"Space\"",
+            "yes"
           ],
           "subInstructions": []
         }
@@ -1156,53 +681,6 @@
           },
           "parameters": [
             ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "NbObjet"
-          },
-          "parameters": [
-            "ThrottleParticles",
-            "=",
-            "1"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetAngle"
-          },
-          "parameters": [
-            "ThrottleParticles",
-            "=",
-            "Spaceship.Angle() + 90"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MettreAutour"
-          },
-          "parameters": [
-            "ThrottleParticles",
-            "Spaceship",
-            "8",
-            "Spaceship.Angle() + 90"
           ],
           "subInstructions": []
         }
@@ -1246,10 +724,6 @@
     {
       "name": "SpaceMover",
       "type": "SpaceMover::SpaceMover"
-    },
-    {
-      "name": "SpaceshipBehavior",
-      "type": "SpaceshipControl::SpaceshipBehavior"
     }
   ]
 }
