@@ -12,7 +12,7 @@
     "orientation": "landscape",
     "packageName": "com.zment.sockhole",
     "projectUuid": "76675571-5bd9-46b7-9b07-9c421817b86b",
-    "scaleMode": "linear",
+    "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
